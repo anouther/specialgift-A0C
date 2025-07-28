@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('Bunga yg Cantik, Untuk Si Cantik').split('');
+        const titles = ('I Love You').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "Sayang, cantiknya tolong dikondisikan ya, jantung abang ga kuat liatnya.";
+            subtitle.innerText = "Happy 2nd mensiversery sayang, terimakasih udah bertahan sama aku 2 bulan ini. I love you";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
